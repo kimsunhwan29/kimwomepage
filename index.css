@@ -1,0 +1,627 @@
+*{
+    
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin:0px;
+    padding:0px;
+    color:#ffffff; 
+    cursor: pointer;
+    
+}
+
+.son{
+    position:absolute;
+    left: 880px;
+    top:520px;
+}
+
+.earth > span{
+    background-image: url(https://i.pinimg.com/originals/04/ca/c6/04cac68a64abb4b2d1b66a088ace105a.gif);
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 40%;
+    top:-5px;
+    left:1100px;
+    border-radius: 50px;
+    
+  
+}
+
+.galaxy{
+    min-height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-image: url(https://i.pinimg.com/originals/85/76/e7/8576e72412abae39b4d2cfb74f81d999.gif);
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 31%; 
+}
+
+.earth > audio {
+    position:relative;
+    top:230px;
+    left: 1080px;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    
+    
+
+}
+
+.sun{
+   width: 1280px;
+   margin:auto;
+   position:relative;
+   top:60px;
+}
+
+.earth {
+    
+    margin-left: -80px;
+}
+
+.earth > div {
+    display: block;
+    font-size: xx-large;
+    font-family: fantasy;
+    line-height: 86px;
+    font-size:40px;
+	color:#ffffff;
+    margin-left: -30px;
+}
+.earth > a:link { font-family: fantasy;  font-size: xx-large;}
+.earth > a:hover { color: rgba(61, 72, 129, 0.671); font-family: fantasy; font-size: xx-large; }
+
+
+.forest .tab_content > label  {
+    display: flex;
+    width: 60px;
+    font-size: x-large;
+    line-height:100px;
+}
+
+
+
+input[type="radio"] {display: none;}
+
+input[type="radio"] + label {
+	text-indent :-20px;
+	border-radius:25px;
+	display:inline-block;
+	color:#ffffff;
+	height:60px;
+	padding:30px;
+	border-color:#ffffff;
+	border-width:2px;
+	border-style:solid;
+    margin: 10px;
+    font-family: fantasy;
+    
+    
+  
+}
+
+input[type="radio"] + label:active{ 
+    position:relative;
+   
+	
+}
+
+input[type="radio"] + label:hover{}
+
+
+
+input[type="radio"]:checked + label{
+  
+    font-weight:bold;
+	text-decoration:none;
+	font-family:Arial;
+	text-indent:0px;
+	line-height:30px;
+	-moz-border-radius:25px;
+	-webkit-border-radius:25px;
+	border-radius:25px;
+	text-align:center;
+	vertical-align:middle;
+	display:inline-block;
+	font-size:20px;
+	color:#2836b0c2;
+	width:100px;
+	height:30px;
+	padding:20px;
+	border-color:#ffffff;
+	border-width:2px;
+	border-style:solid;
+}
+
+input[type="radio"]:checked + label:active{
+    position:relative;
+	
+}
+
+input[type="radio"]:checked + label:hover{}
+
+
+    
+
+.conbox {
+    
+    width: 1000px;
+    height: 500px; 
+    background:rgba(0, 0, 0, 0.86);
+    margin: -500px;
+    display:none;
+    position: absolute;
+    left: 700px;
+    border-radius: 50px;
+    border:0;
+   
+}
+input[id = "tab01"]:checked ~ .con1  {
+    display: block;
+    
+}
+input[id = "tab02"]:checked ~ .con2 {
+    display: block;
+}
+input[id = "tab03"]:checked ~ .con3 {
+    display: block;
+}
+input[id = "tab04"]:checked ~ .con4 {
+    display: block;
+}
+
+
+ /* 소개 옵션 */    /* 소개 옵션 */    /* 소개 옵션 */    /* 소개 옵션 */    /* 소개 옵션 */   
+.my  {
+    position:absolute;
+    left: 400px;
+    bottom: 40px;
+ 
+}
+.my > div {
+    font-family: fantasy;
+    font-size: larger;
+    
+}
+
+.a {
+    width: 100px;
+    line-height: 80px;
+    text-align:center;
+    border-radius: 10px;
+	border-color:#ffffff;
+	border-width:2px;
+	border-style:solid;
+    
+}
+
+.b {
+    
+    width: 100px;
+    line-height: 80px;
+    text-align:center;
+    border-color:#ffffff;
+	border-width:2px;
+	border-style:solid;
+    border-radius: 10px;
+}
+
+.c {
+    width: 100px;
+    line-height: 80px;
+    text-align:center;
+    border-color:#ffffff;
+	border-width:2px;
+	border-style:solid;
+    border-radius: 10px;
+}
+
+.d {
+    width: 100px;
+    line-height: 80px;
+    text-align:center;
+    border-color:#ffffff;
+	border-width:2px;
+	border-style:solid;
+    border-radius: 10px;
+}
+
+.e {
+    line-height: 80px;
+    text-align:center;
+    border-color:#ffffff;
+	border-width:2px;
+	border-style:solid;
+    border-radius: 10px;
+}
+ a:link { font-family: fantasy; }
+a:hover { color: rgba(61, 72, 129, 0.671); font-family: fantasy; } 
+
+
+
+.tree  {
+    position:absolute;
+    left:510px;
+    bottom: 40px;
+    
+}
+.tree > div {
+    
+    font-size: xx-large;
+}
+
+.f {
+    font-family: 'Black Han Sans', sans-serif;
+    border-color:#ffffff;
+	border-width:2px;
+	border-style:solid;
+    width: 420px;
+    line-height: 80px;
+    text-align:left;
+    border-radius: 10px;
+}
+
+.g {
+    font-family: fantasy;
+    width: 420px;
+    line-height: 80px;
+    text-align:left;
+    border-color:#ffffff;
+	border-width:2px;
+	border-style:solid;
+    border-radius: 10px;
+}
+
+.h {
+    width: 420px;
+    line-height: 80px;
+    text-align:left;
+    border-color:#ffffff;
+	border-width:2px;
+	border-style:solid;
+    border-radius: 10px;
+    font-family: fantasy;
+}
+
+.i {
+    
+    width: 420px;
+    line-height: 80px;
+    text-align:left;
+    border-color:#ffffff;
+	border-width:2px;
+	border-style:solid;
+    border-radius: 10px;
+    font-family: fantasy;
+}
+
+.l {
+    
+    width: 420px;
+    line-height: 80px;
+    text-align:left;
+     border-color:#ffffff;
+	border-width:2px;
+	border-style:solid;
+    border-radius: 10px;
+    font-family: fantasy;
+}
+
+.z {
+    background-image: url(https://i.pinimg.com/originals/70/37/d4/7037d478852af21357f038fac2d2e9f6.gif);
+    
+    position: relative;
+  width: 350px;
+  height: 370px;
+  top: 50px;
+  left: 35px;
+  border-radius: 20%;
+  overflow: hidden;
+}
+
+.z img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+    
+ /* 소개 옵션 */   /* 소개 옵션 */    /* 소개 옵션 */    /* 소개 옵션 */    /* 소개 옵션 */    
+
+/*MBTI css*/    /*MBTI css*/    /*MBTI css*/    /*MBTI css*/    /*MBTI css*/    
+
+.a2 {
+  background-image: url(https://i.pinimg.com/originals/36/4f/e4/364fe44308c9e09614618635aa6cb984.gif);
+  position: relative;
+  width: 380px;
+  height: 350px;
+  top: 110px;
+  left: 90px;
+  border-radius: 20%;
+  overflow: hidden;
+}
+
+
+.b2 {
+    font-size:xx-large;
+    font-family: 'Black Han Sans', sans-serif;
+    width: 420px;
+    line-height: 80px;
+    position: absolute;
+    left: 300px;
+    top: -10px;
+}
+
+.c2{
+    font-size:x-large;
+    font-family: 'Black Han Sans', sans-serif;
+    width: 420px;
+    position: absolute;
+    left: 540px;
+    top: 110px;
+   
+}
+
+.d2 {
+    font-family: 'Black Han Sans', sans-serif;
+    font-size:x-large;
+    width: 420px;
+    position: absolute;
+    left: 540px;
+    top: 260px;
+
+}
+.e2{    
+    position: absolute;
+    left: 540px;
+    top: 150px;
+    border-color:#ffffff;
+	border-width:3px;
+	border-style:solid;
+    border-radius: 10px;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.f2{ 
+    position: absolute;
+    left: 540px;
+    top: 325px;
+    border-color:#ffffff;
+	border-width:2px;
+	border-style:solid;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.g2{    position: absolute;
+    left: 900px;
+    top: 450px;
+    border-color:#ffffff;
+	border: width 1px;px;
+    border-radius: 10px;
+    }
+
+/*MBTI css*/    /*MBTI css*/    /*MBTI css*/    /*MBTI css*/    /*MBTI css*/    
+
+
+/* 모교 css */   /* 모교 css */   /* 모교 css */   /* 모교 css */
+.e3 {
+    background-image: url(https://i.pinimg.com/originals/af/3b/a9/af3ba9cb10292110477439f4e0bcaf05.gif);
+    min-height: 100%;
+    width: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 40%; 
+    top: 100px;
+    left: 2px;
+    border-radius: 50px;
+    
+  }
+ 
+
+.sch > div > a:link {  font-size:x-large ; font-family: 'Black Han Sans', sans-serif;}
+.sch > div > a:hover { color: rgba(129, 61, 61, 0.671);  font-size: large;font-weight:bold; }
+
+
+ .sch  {
+    position:absolute;
+    left: 400px;
+    bottom: 50px;
+    
+}
+
+
+.a3 {
+    width: 100px;
+    line-height: 80px;
+    text-align:center;
+    border-radius: 10px;
+	border-color:#ffffff;
+	border-width:2px;
+	border-style:solid;
+    margin: 10px;
+    
+}
+
+.b3 {
+    
+    width: 100px;
+    line-height: 80px;
+    text-align:center;
+    border-color:#ffffff;
+	border-width:2px;
+	border-style:solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.c3 {
+    width: 100px;
+    line-height: 80px;
+    text-align:center;
+    border-color:#ffffff;
+	border-width:2px;
+	border-style:solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.d3 {
+    width: 100px;
+    line-height: 80px;
+    text-align:center;
+    border-color:#ffffff;
+	border-width:2px;
+	border-style:solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+.sch1 {
+    position:absolute;
+    left:510px;
+    bottom: 52px;
+    
+}
+.sch1 > div {
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: xx-large;
+    
+}
+
+.f3 {
+    border-color:#ffffff;
+	border-width:2px;
+	border-style:solid;
+    width: 420px;
+    line-height: 80px;
+    text-align:left;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.g3 {
+    
+    width: 420px;
+    line-height: 80px;
+    text-align:left;
+    border-color:#ffffff;
+	border-width:2px;
+	border-style:solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.h3 {
+    width: 420px;
+    line-height: 80px;
+    text-align:left;
+       border-color:#ffffff;
+	border-width:2px;
+	border-style:solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.i3 {
+    
+    width: 420px;
+    line-height: 80px;
+    text-align:left;
+    border-color:#ffffff;
+	border-width:2px;
+	border-style:solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/* 학교 css*/    /* 학교 css*/    /* 학교 css*/    /* 학교 css*/    /* 학교 css*/    
+
+/* 취미 css */    /* 취미 css */    /* 취미 css */    /* 취미 css */    /* 취미 css */    
+
+
+
+.a4{
+    background-image: url(https://i.pinimg.com/originals/14/1f/e4/141fe4a545e28618d10adbf644a57cce.gif);
+    position: relative;
+    width: 250px;
+    height:250px;
+    top: 60px;
+    left: 70px;
+    border-radius: 10%;
+}
+
+
+
+.b4{
+    background-image: url(https://i.pinimg.com/originals/f8/3c/14/f83c14792bdabc1873ab792058605e05.gif);
+    position: relative;
+    width: 250px;
+    height: 250px;
+    top: -190px;
+    left: 380px;
+    border-radius: 10%;
+    overflow: hidden;
+   
+}
+
+
+
+.c4{
+    background-image: url(https://i.pinimg.com/originals/c9/6c/a7/c96ca74ae8fbb74c67052cbffa8dd463.gif);
+    position: relative;
+    width: 250px;
+    height: 250px;
+    top:-440px;
+    left: 690px;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+
+
+.d4{
+    font-size:xx-large;
+    
+    line-height: 80px;
+    position: absolute;
+    left: 150px;
+    top: 350px;
+    
+}
+
+.e4{
+    font-size:xx-large;
+    width: 420px;
+    line-height: 80px;
+    position: absolute;
+    left: 465px;
+    top: 350px;
+    
+}
+
+.f4{
+    font-size:xx-large;
+    width: 100px;
+    line-height: 86px;
+    position: absolute;
+    left: 780px;
+    top: 350px;
+
+
+}
+
+.mb > div > a:link {font-family: 'Black Han Sans', sans-serif;     border-color:#ffffff;
+	border-width:5px;
+	border-style:solid;
+    border-radius: 10px;
+   }
+
+/* 취미 css */    /* 취미 css */    /* 취미 css */    /* 취미 css */    /* 취미 css */   
